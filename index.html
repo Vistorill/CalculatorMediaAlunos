@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Calculadora de Media de Alunos</h1>
+    <script type="text/javascript">
+
+    var situacao, n1,n2,n3,n4;
+    
+    var n1 = prompt ('A primeria nota é : ');
+    n1 = eval(n1);
+
+    var n2 = prompt ('A segunda nota é : ');
+    n2 = eval(n2);
+
+    var n3 = prompt ('A terceira nota é : ');
+    n3 = eval(n3);
+
+    var n4 = prompt ('A quarta nota é : ');
+    n4 = eval(4);
+
+    media = (n1+n2+n3+n4)/4;
+
+    //var total = n1+n2+n3+n4; 
+    // var media = total/4;
+
+    if (media >= 7 ) {
+        situacao = ': Aprovado';
+        alert(situacao = ': Aprovado')
+
+    }else{
+        situacao = ': Reprovado';
+        alert(situacao = ': Reprovado')
+    }
+
+{
+   document.write("<h2> A media total dos alunos é :</h2> ", media , situacao,).style.color="red"; 
+}
+
+</script>
+</body>
+</html>

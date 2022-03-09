@@ -1,0 +1,13 @@
+body{
+  
+    background-image: linear-gradient( to right, rgb(168, 243, 250), rgb(91, 120, 250));
+    text-align: center;
+}
+
+h1{
+
+    background-color: #0a0a0a;
+    text-align: center;
+    color: #fff;
+
+}
